@@ -24,9 +24,9 @@ public class MainActivity extends AppCompatActivity {
         text = "This button will launch my "+ (text.contains("App")? text:( text+" app!"));
         Log.e("Priyanka", text);
         int duration = Toast.LENGTH_SHORT;
-
         Toast toast = Toast.makeText(context, text, duration);
         toast.show();
+        //added useless comments
     }
 
 }
